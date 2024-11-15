@@ -1,16 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 7; }
 
-.chess-board{
+#chess-board{
     display: grid;
     grid-template-columns: repeat(8,60px);
     grid-template-rows: repeat(8,60px);
     width: 480px;
     height: 480px;
    border: black;
-}
-.square{
-    width: 60px;
-    height: 60px;
+
+  
+
 }
 .square-black{
-    
+ width: 60xp; 
+ height: 60 xp; 
+ background-color: black;
+}
+
+.square-white{
+    width: 60xp; 
+    height: 60 xp; 
+    background-color: white;
+}
+.square-black, .square-white{
+    border: 1px solod gray; 
 }
