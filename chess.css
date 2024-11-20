@@ -3,7 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    margin: 7; }
+    margin: 0; }
+   
 
 #chess-board{
     display: grid;
@@ -19,14 +20,18 @@ body {
 .square-black{
  width: 60xp; 
  height: 60 xp; 
- background-color: black;
+ background-color: #28231D;
+
+   
 }
 
 .square-white{
     width: 60xp; 
     height: 60 xp; 
     background-color: white;
+    color:gray;
+    
 }
 .square-black, .square-white{
-    border: 1px solod gray; 
+    border: 3px solod gray; 
 }
