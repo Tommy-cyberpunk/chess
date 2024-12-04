@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh; 
     margin: 0;
-    padding:0.3em
+        
 }
     
    
@@ -16,7 +16,9 @@ body {
     width: 480px;
     height: 480px;
    border: black;
-
+   
+   
+    
   
 
 }
@@ -37,4 +39,6 @@ body {
 }
 .square-black, .square-white{
     border: 3px solod gray; 
+    color:gray;
+    
 }
