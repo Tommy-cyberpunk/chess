@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="chess.css" >
 
     
-</head>
+</head>................................................
 <body background="images/chess.webp"> 
 
-    <div id = "chess-board" 
-    
-    
-    >
+    <div id = "chess-board" >
         
         <div class="square-black" data-position="a1">A</div>  
         <div class="square-white" data-position="a2"></div> 
@@ -78,8 +75,8 @@
         <div class="square-black" data-position="g7"></div>
         <div class="square-white" data-position="g8"></div>
 
-        <div class="square-white"data-position="h0">1h</div>
-        <div class="square-black" data-position="h1">2</div>
+        <div class="square-white"data-position="h1">1h</div>
+        <div class="square-black" data-position="h2">2</div>
         <div class="square-white" data-position="h3">3</div>
         <div class="square-black" data-position="h4">4</div>
         <div class="square-white" data-position="h5">5</div>
@@ -87,6 +84,37 @@
         <div class="square-white" data-position="h7">7</div>
         <div class="square-black" data-position="h8">8</div>
 
+        
+
+<script>
+   
+
+     const chessBorad = document.getElementById("chess- boerd");
+     const letter = ["a","b","c","d",'e',"f","g","h"];
+     const numbers = [8,7,6,5,4,3,2,1];
+      
+      for(let row = 0; row < numbers.length;row++);{
+        for (let col = 0; col < letter.length;col++){
+            const square = documented.createElement('div');
+          
+        }
+      }
+
+    
+    
+  const pieces ={
+ a1: "rook", b1: "Knight", c1:"bishop",d1:"queen", e1:"king", f1:"bishop2",g1:"knight",h1:"rook", // white rank 
+ a2: 'pawn ', b2: 'pawn', c2: 'pawn', d2: 'pawn', e2: 'pawn', f2: 'pawn', g2: 'pawn', h2: 'pawn', // White pawns
+ a8: "rook",b8:"knight",c8:"bishop",d8:"queen", e8:"king", f8:"bishop2",g8:"knight",h8:"rook", //black rank 
+ a7: "pawn",b7:"pawn",c7:"pawn",d8:"pawn", e8:"pawn", f8:"pawn",g8:"pawn",h8:"pawn", //black rank 
+ 
+ 
+ };
+
+  
+        
+     
+</script>
 
 
 
@@ -95,4 +123,4 @@
      
     </div>
 </body>
-</html>w
+</html>
